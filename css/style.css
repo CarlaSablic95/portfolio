@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url(../assets/img/bg-portfolio.jpg); */
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.foto-perfil {
+    backdrop-filter: gray(50%);
+}
+
+.logo-html, .logo-bs  {
+    width: 40px; 
+}
+
+.logo-css {
+    width: 50px; 
+}
+
+.dark-salmon {
+    color: darksalmon !important;
+}
+
+.bg-dark-salmon {
+    background-color: darksalmon !important;
+}
+
+.bg-light-salmon {
+    background-color: #fd9da4;
+}
+
+.icono-redes {
+    width: 40px;
+}
+
+/* SECCIÓN MIS PROYECTOS */
