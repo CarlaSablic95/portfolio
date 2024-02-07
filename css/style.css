@@ -89,6 +89,14 @@ h3 {
     height: 30vh;
 }
 
+.card-proyecto4 {
+    background-image: url("../assets/img/3ng-tech.png");
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
 .contenedor-contacto {
     bottom: 77px;
 }
