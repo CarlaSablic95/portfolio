@@ -29,6 +29,10 @@ body {
     background-attachment: fixed;
 }
 
+h1, h2, h3, h4 {
+    color: rgb(42, 42, 42);
+}
+
 h1 {
     font-size: 3rem;
     font-weight: 500;
@@ -92,6 +96,7 @@ h3 {
 .card-proyecto4 {
     background-image: url("../assets/img/3ng-tech.png");
     background-size: cover;
+    background-position: start;
     background-repeat: no-repeat;
     height: 30vh;
 }
@@ -136,12 +141,19 @@ h3 {
     animation-fill-mode: both
 }
 
+/* SECCIÓN DE TESTIMONIOS */
+.testimonials {
+    min-height: 50vh;
+}
+
 /* CONTACTO */
 .bg-fondo-contacto {
     background-image: url("../assets/img/wave.svg");
     background-size: cover;
     background-position: bottom;
     height: 50vh;
+    display: flex;
+    justify-content: center;
 }
 
 .contenedor-contacto {

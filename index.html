@@ -8,9 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <title>Carla Sablic Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -26,11 +27,24 @@
                 <div class="collapse navbar-collapse justify-content-center justify-content-lg-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 text-center">
                         <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#sobre-mi">Sobre Mí</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link text-dark text-uppercase" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark text-uppercase" href="#skills">Skills</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#certificaciones">Certificaciones</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#testimonios">Testimonios</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark text-uppercase" href="#contacto">Contacto</a>
                         </li>
@@ -45,18 +59,19 @@
                     <div class="col">
                         <p class="px-5">¡Hola! mi nombre es</p>
                         <h1 class="px-5">Carla Sablic</h1>
-                        <h2 class="px-5 fw-bold">Frontend Developer</h2>
+                        <h2 class="px-5 fw-bold fs-4">Desarrolladora Frontend Junior en React</h2>
                         <p class="mb-1 px-5">Mi interés hacia el desarrollo web comenzó en el año 2019, desde entonces
                             me dedico a desarrollar sitios y aplicaciones web que sean memorables.</p>
-                        <p class="mb-4 px-5">Creo que la usabilidad y la estética son componentes esenciales de
-                            cualquier proyecto web exitoso.</p>
+                            <p class="mb-4 px-5">Creo que la usabilidad y la estética son componentes esenciales de
+                                cualquier proyecto web exitoso.</p>
+                            <p class="mb-1 px-5">Me caracterizo por ser responsable, dedicada y entregar proyectos de calidad.</p>
 
                         <div class="mx-5">
                             <a href="./assets/cv-carla-sablic.pdf" class="btn button bg-transparent border-btn fw-bold"
                                 download>Descargar CV</a>
                         </div>
                     </div>
-                    <div class="col d-flex justify-content-center my-5 my-md-0 d-none d-md-block text-center">
+                    <div class="col my-5 my-md-0 d-none d-md-block text-center">
                         <img src="./assets/img/yo.jpg" alt="foto de perfil"
                             class="shadow w-75 foto-perfil rounded-circle">
                     </div>
@@ -65,10 +80,22 @@
         </section>
     </header>
 
+    <!-- SOBRE MÍ -->
+    <!-- <section id="sobre-mi" class="py-5 bg-skills">
+        <div class="container">
+            <h2 class="text-center text-uppercase fw-bold mb-4">Sobre Mí</h2>
+            <div class="row justify-content-evenly">
+                <p></p>
+            </div>
+        </div>
+    </section> -->
+
+<!-- PROYECTOS -->
     <section class="container py-5 wow bounceInUp" id="proyectos">
         <h2 class="mb-5 text-center text-uppercase fw-bold">Proyectos</h2>
         <div class="row justify-content-center justify-content-md-start">
-            <div class="col-10 col-md-4 d-flex justify-content-center mb-4">
+            <!-- PROYECTO 1 -->
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card mb-4 mb-md-0">
                     <div class="card-proyecto1 position-relative">
                         <img src="./assets/img/logo-coderhouse.png" class="position-absolute end-0 bottom-0"
@@ -93,7 +120,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-10 col-md-4 d-flex justify-content-center mb-4">
+
+            <!-- PROYECTO 2 -->
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card mb-4 mb-md-0">
                     <div class="card-proyecto2 position-relative">
                         <img src="./assets/img/logo-coderhouse.png" class="position-absolute end-0 bottom-0"
@@ -119,7 +148,8 @@
                 </div>
             </div>
 
-            <div class="col-10 col-md-4 d-flex justify-content-center mb-4">
+            <!-- PROYECTO 3 -->
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card mb-4 mb-md-0">
                     <div class="card-proyecto3 position-relative">
                         <img src="./assets/img/logo-coderhouse.png" class="position-absolute end-0 bottom-0"
@@ -132,7 +162,6 @@
                         <div class="text-center mb-3">
                             <p class="fw-bold mb-1">Tecnologías:</p>
                             <img src="./assets/img/react.png" alt="logo de react" width=45px />
-                            <img src="./assets/img/css.png" alt="logo de css" width=45px />
                             <img src="./assets/img/bootstrap.png" alt="logo de bootstrap" width=35px />
                             <img src="./assets/img/firebase.png" alt="logo de react" width=45px />
                         </div>
@@ -147,7 +176,8 @@
                 </div>
             </div>
 
-            <div class="col-10 col-md-4 d-flex justify-content-center mb-4">
+            <!-- PROYECTO 4  -->
+            <div class="col-10 col-md-4 mb-4">
                 <div class="card mb-4 mb-md-0">
                     <div class="card-proyecto4"></div>
                     <div class="card-body">
@@ -167,9 +197,12 @@
                     </div>
                 </div>
             </div>
+
+            
         </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills" class="py-5 bg-skills">
         <div class="container">
             <h2 class="text-center text-uppercase fw-bold mb-4">Skills</h2>
@@ -185,7 +218,108 @@
         </div>
     </section>
 
-    <section id="contacto" class="bg-fondo-contacto position-relative d-flex justify-content-center align-items-center">
+    <!-- CERTIFICACIONES -->
+    <section id="certificaciones" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-uppercase fw-bold mb-4">Certificaciones</h2>
+            <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-4 mb-3">
+                    <img src="./assets/img/desarrollo-web.jpeg" alt="Certificado del curso de Desarrollo web" class="img-fluid rounded-4">
+                </div>
+                <div class="col-10 col-md-4 mb-3">
+                    <img src="./assets/img/javascript.jpeg" alt="Certificado del curso de JavaScript" class="img-fluid rounded-4">
+                </div>
+                <div class="col-10 col-md-4 mb-3">
+                    <img src="./assets/img/react.jpeg" alt="Certificado del curso de React JS" class="img-fluid rounded-4">
+                </div>
+                <div class="col-10 col-md-4">
+                    <img src="./assets/img/carrera-react-js.jpeg" alt="Certificado de la carrera de React JS" class="img-fluid rounded-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-uppercase fw-bold mb-4">Testimonios</h2>
+            <h4 class="text-center fw-bold mb-4">Qué dicen los clientes</h4>
+            <div class="row justify-content-evenly">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track container">
+                          <ul class="splide__list row justify-content-center justify-content-md-evenly">
+                            <!-- CLIENTE 1 -->
+                            <div class="col-10 col-md-4 mb-4">
+                                <li class="splide__slide">
+                                 <div class="card rounded-4">
+                                     <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                                       <h5 class="card-title fw-bold text-center">Lucas</h5>
+                                       <small class="text-center fw-bold text-muted">CDO en 3NG Tech</small>
+                                       <div class="d-flex justify-content-center my-3">
+                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                       </div>
+                                       <p class="card-text mb-0 fst-italic fw-light" style="font-size: 14px;">"Me gustaría compartir la increíble experiencia que tuve al poder trabajar con Carla y reconocer todo el potencial que tiene como profesional.</p>
+                                         <p class="card-text fst-italic fw-lighter" style="font-size: 14px;">Destacó en todo su trabajo por su increíble proactividad y capacidad de resolución. Sin dudas su actitud frente a los desafíos la posiciona por encima de todo lo que uno espera. Y sumado a sus increíbles habilidades en React, HTML, CSS, JS, etc. Hacen que sea una persona increíble para trabajar, armar un buen equipo de trabajo y sacar cualquier proyecto adelante."</p>
+                                     </div>
+                                   </div>
+                               </li>
+                              </div>
+
+                            <!-- CLIENTE 2 -->
+                             <div class="col-10 col-md-4 mb-4">
+                                <li class="splide__slide">
+                                <div class="card rounded-4">
+                                    <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                                      <h5 class="card-title fw-bold text-center">Nahuel</h5>
+                                      <small class="text-center fw-bold text-muted">Co-Founder de CoderHouse</small>
+                                      <div class="d-flex justify-content-center my-3">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                      </div>
+                                      <p class="card-text fst-italic fw-lighter" style="font-size: 15px;">"Carla ha demostrado un compromiso excepcional en su formación en Desarrollo Web en Coderhouse. Su interés y habilidades en el desarrollo web son notables. ¡Felicitaciones, Carla, por tu dedicación y progreso en Desarrollo Web!"</p>
+                                    </div>
+                                  </div>
+                              </li>
+                             </div>
+
+                             <!-- CLIENTE 3 -->
+                             <div class="col-10 col-md-4 mb-4">
+                               <li class="splide__slide">
+                                <div class="card rounded-4">
+                                    <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                                      <h5 class="card-title fw-bold text-center">Rafael</h5>
+                                      <small class="text-center fw-bold text-muted">Cliente de Brasil (Upwork)</small>
+                                      <div class="d-flex justify-content-center my-3">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
+                                        <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
+                                      </div>
+                                      <p class="card-text fst-italic fw-lighter" style="font-size: 14px;">"I really enjoyed working with Carla, she is very creative in UI/UX development. Furthermore, it is very good with clean codes."</p>
+                                    </div>
+                                  </div>
+
+                                  
+                              </li>
+                             </div>
+                          </ul>
+                    </div>
+                  </section>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="bg-fondo-contacto position-relative align-items-center">
         <div class="container position-absolute w-100 contenedor-contacto ">
             <h2 class="text-center text-uppercase fw-bold">Contacto</h2>
             <div class="container">
@@ -222,9 +356,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
-        
-        <script src="js/wow.min.js"></script>
-        <script>new WOW().init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('.splide', {
+                type: 'loop',
+                perPage: 3,
+                perMove: 3,
+            }).mount();
+        });
+    </script>
 </body>
 
 </html>
