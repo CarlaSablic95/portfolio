@@ -66,7 +66,13 @@ h3 {
 }
 
 .splide__arrow {
-    background: #f32e86;
+    background: #E1A2F2;
+}
+
+.splide__pagination__page.is-active {
+    background: #d870f5;
+    transform: scale(1.4);
+    z-index: 1;
 }
 
 .card-proyecto1 {
@@ -143,7 +149,8 @@ h3 {
 
 /* SECCIÓN DE TESTIMONIOS */
 .testimonials {
-    min-height: 50vh;
+    max-width: 80%;
+    min-height: 55vh;
 }
 
 /* CONTACTO */
@@ -185,5 +192,9 @@ h3 {
         background-color: #ffffff;
         border-radius: .5rem;
         padding: 5px;
+    }
+
+    .testimonials {
+        min-height: 30vh;
     }
 }

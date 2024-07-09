@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <title>Carla Sablic Portfolio</title>
 </head>
@@ -246,13 +246,12 @@
             <h4 class="text-center fw-bold mb-4">Qué dicen los clientes</h4>
             <div class="row justify-content-evenly">
                 <section class="splide" aria-label="Splide Basic HTML Example">
-                    <div class="splide__track container">
-                          <ul class="splide__list row justify-content-center justify-content-md-evenly">
+                    <div class="splide__track">
+                          <ul class="splide__list d-flex justify-content-center justify-content-md-evenly">
                             <!-- CLIENTE 1 -->
-                            <div class="col-10 col-md-4 mb-4">
-                                <li class="splide__slide">
-                                 <div class="card rounded-4">
-                                     <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                                <li class="splide__slide d-flex justify-content-center">
+                                 <div class="card rounded-4 testimonials">
+                                     <div class="card-body text-center d-flex flex-column justify-content-baseline align-items-center">
                                        <h5 class="card-title fw-bold text-center">Lucas</h5>
                                        <small class="text-center fw-bold text-muted">CDO en 3NG Tech</small>
                                        <div class="d-flex justify-content-center my-3">
@@ -262,18 +261,16 @@
                                          <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
                                          <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
                                        </div>
-                                       <p class="card-text mb-0 fst-italic fw-light" style="font-size: 14px;">"Me gustaría compartir la increíble experiencia que tuve al poder trabajar con Carla y reconocer todo el potencial que tiene como profesional.</p>
-                                         <p class="card-text fst-italic fw-lighter" style="font-size: 14px;">Destacó en todo su trabajo por su increíble proactividad y capacidad de resolución. Sin dudas su actitud frente a los desafíos la posiciona por encima de todo lo que uno espera. Y sumado a sus increíbles habilidades en React, HTML, CSS, JS, etc. Hacen que sea una persona increíble para trabajar, armar un buen equipo de trabajo y sacar cualquier proyecto adelante."</p>
+                                       <p class="card-text mb-0 " style="font-size: 14px;">"Me gustaría compartir la increíble experiencia que tuve al poder trabajar con Carla y reconocer todo el potencial que tiene como profesional.</p>
+                                         <p class="card-text" style="font-size: 14px;">Destacó en todo su trabajo por su increíble proactividad y capacidad de resolución. Sin dudas su actitud frente a los desafíos la posiciona por encima de todo lo que uno espera. Y sumado a sus increíbles habilidades en React, HTML, CSS, JS, etc. Hacen que sea una persona increíble para trabajar, armar un buen equipo de trabajo y sacar cualquier proyecto adelante."</p>
                                      </div>
                                    </div>
                                </li>
-                              </div>
 
                             <!-- CLIENTE 2 -->
-                             <div class="col-10 col-md-4 mb-4">
-                                <li class="splide__slide">
-                                <div class="card rounded-4">
-                                    <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                                <li class="splide__slide d-flex justify-content-center">
+                                <div class="card rounded-4 testimonials">
+                                    <div class="card-body text-center d-flex flex-column justify-content-baseline align-items-center">
                                       <h5 class="card-title fw-bold text-center">Nahuel</h5>
                                       <small class="text-center fw-bold text-muted">Co-Founder de CoderHouse</small>
                                       <div class="d-flex justify-content-center my-3">
@@ -283,17 +280,15 @@
                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
                                       </div>
-                                      <p class="card-text fst-italic fw-lighter" style="font-size: 15px;">"Carla ha demostrado un compromiso excepcional en su formación en Desarrollo Web en Coderhouse. Su interés y habilidades en el desarrollo web son notables. ¡Felicitaciones, Carla, por tu dedicación y progreso en Desarrollo Web!"</p>
+                                      <p class="card-text" style="font-size: 15px;">"Carla ha demostrado un compromiso excepcional en su formación en Desarrollo Web en Coderhouse. Su interés y habilidades en el desarrollo web son notables. ¡Felicitaciones, Carla, por tu dedicación y progreso en Desarrollo Web!"</p>
                                     </div>
                                   </div>
                               </li>
-                             </div>
 
                              <!-- CLIENTE 3 -->
-                             <div class="col-10 col-md-4 mb-4">
-                               <li class="splide__slide">
-                                <div class="card rounded-4">
-                                    <div class="card-body testimonials text-center d-flex flex-column justify-content-baseline align-items-center">
+                               <li class="splide__slide d-flex justify-content-center">
+                                <div class="card rounded-4 testimonials">
+                                    <div class="card-body text-center d-flex flex-column justify-content-baseline align-items-center">
                                       <h5 class="card-title fw-bold text-center">Rafael</h5>
                                       <small class="text-center fw-bold text-muted">Cliente de Brasil (Upwork)</small>
                                       <div class="d-flex justify-content-center my-3">
@@ -303,11 +298,8 @@
                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px" class="mx-1">
                                         <img src="./assets/img/estrella.png" alt="ícono de estrella" style="width: 20px">
                                       </div>
-                                      <p class="card-text fst-italic fw-lighter" style="font-size: 14px;">"I really enjoyed working with Carla, she is very creative in UI/UX development. Furthermore, it is very good with clean codes."</p>
+                                      <p class="card-text er" style="font-size: 14px;">"I really enjoyed working with Carla, she is very creative in UI/UX development. Furthermore, it is very good with clean codes."</p>
                                     </div>
-                                  </div>
-
-                                  
                               </li>
                              </div>
                           </ul>
@@ -363,7 +355,18 @@
             new Splide('.splide', {
                 type: 'loop',
                 perPage: 3,
-                perMove: 3,
+                perMove: 1,
+                breakpoints: {
+                768: {
+                    perPage: 1,
+                },
+                992: {
+                    perPage: 2,
+                },
+                1200: {
+                    perPage: 3,
+                },
+            },
             }).mount();
         });
     </script>
