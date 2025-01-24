@@ -107,6 +107,14 @@ h3 {
     height: 30vh;
 }
 
+.card-proyecto5 {
+    background-image: url("../assets/img/portfolio-fotografa.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
 .contenedor-contacto {
     bottom: 77px;
 }
