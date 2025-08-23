@@ -115,6 +115,14 @@ h3 {
     height: 30vh;
 }
 
+.card-proyecto6 {
+    background-image: url("../assets/img/estudio-danza.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
 .contenedor-contacto {
     bottom: 77px;
 }
